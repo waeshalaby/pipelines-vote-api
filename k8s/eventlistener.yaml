@@ -9,4 +9,4 @@ spec:
   - bindings:
     - ref: vote-api
     template:
-      name: vote-api
+      ref: vote-api

@@ -12,3 +12,5 @@ FROM scratch
 WORKDIR /app
 COPY --from=builder /tmp/api-server /app/api-server
 CMD [ "/app/api-server" ]
+
+
